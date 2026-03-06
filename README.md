@@ -137,6 +137,24 @@ Las siguientes historias corresponden a tareas de gestión del proyecto bajo el 
 - [ ] Se crea la carpeta `/docs` para documentación del proyecto.
 - [ ] Se agrega al profesor/evaluador como colaborador o se comparte el enlace público.
 
+** Stakeholders:**
+
+- **Profesor:** Cliente principal (proveedor de la BD y evaluador)
+    - ¿Qué espera?.
+        - Que los estudiantes pongan en práctica lo asimilado en el curso y que aprendan a desarrollar una aplicación demostrando las mejores prácticas para la construcción de proyectos de software
+        - Que se cumplan los requerimientos funcionales
+        - que se use la estructura de BD que será entregada al equipo
+        - Que el desarrollo cumpla con lo que se defina y se apruebe en el Project Charter
+        - Que los estudiantes aprueben la materia :)
+- **Usuarios Finales:** Comunidad de estudiantes UAN, del curso de Gestión de Proyectos de Software, Compradores de productos tecnológicos que buscan la mejor relación calidad-precio.
+    - ¿Qué pueden esperar?
+        - Una aplicación funcional que sirva para simplificar los procesos de compra de productos tecnológicos.
+- **Desarrolladores:**  Grupo B de la materia de Gestión de Proyectos de Software UAN
+    - ¿Qué esperan?
+        - Aprender sobre la gestió de proyectos de software para su aplicación en el mundo real fuera del espacio académico
+        - Desarrollar una aplicación que cumpla los requisitos de aceptación y con las expectativas y exigencias del docente.
+        - Aprobar la materia :)
+
 ---
 
 ## 📁 Estructura del Repositorio
@@ -160,6 +178,6 @@ Las siguientes historias corresponden a tareas de gestión del proyecto bajo el 
 | _(Samuel Gerena)_ | _(Development)_ |
 | _(Jorge Montes)_ | _(Development)_ |
 | _(Jorge Camargo)_ | _(Scrub master)_ |
-| _(Giovanni)_ | _(Product owner)_ |
+| _(Jovany Gutierrez)_ | _(Product owner)_ |
 
 --
