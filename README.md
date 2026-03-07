@@ -67,7 +67,7 @@ Desarrollar una aplicación que permita comparar productos tecnológicos mediant
 | Área              | Tecnología         |
 |-------------------|--------------------|
 | Control de versiones | Git & GitHub    |
-| Lenguaje          | Por definir        |
+| Lenguaje          |   Typescript        |
 | Base de datos     | Por definir        |
 | Frontend          | Por definir        |
 | Backend           | Por definir        |
@@ -137,7 +137,7 @@ Las siguientes historias corresponden a tareas de gestión del proyecto bajo el 
 - [ ] Se crea la carpeta `/docs` para documentación del proyecto.
 - [ ] Se agrega al profesor/evaluador como colaborador o se comparte el enlace público.
 
-** Stakeholders:**
+### Stakeholders: 
 
 - **Profesor:** Cliente principal (proveedor de la BD y evaluador)
     - ¿Qué espera?.
@@ -177,7 +177,7 @@ Las siguientes historias corresponden a tareas de gestión del proyecto bajo el 
 |--------|-----|
 | _(Samuel Gerena)_ | _(Development)_ |
 | _(Jorge Montes)_ | _(Development)_ |
-| _(Jorge Camargo)_ | _(Scrub master)_ |
+| _(Jorge Camargo)_ | _(Scrum master)_ |
 | _(Jovany Gutierrez)_ | _(Product owner)_ |
 
 --
