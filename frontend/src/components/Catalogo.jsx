@@ -1,7 +1,7 @@
 import ProductCard from './ProductCard.jsx'
 
 // ── Componente: Sección catálogo de productos ──
-export default function Catalogo({ productos, cargando, error, slots, onToggleComparar }) {
+export default function Catalogo({ productos, cargando, error, slots, onToggleComparar, activeSearch, onClearSearch }) {
 
   // Estado de carga
   if (cargando) return (
@@ -30,10 +30,33 @@ export default function Catalogo({ productos, cargando, error, slots, onToggleCo
     </section>
   )
 
+  // Sin resultados de búsqueda
+  if (productos.length === 0 && activeSearch) return (
+    <section id="catalogo" style={{ padding: '72px 48px', maxWidth: '1280px', margin: '0 auto' }}>
+      <div className="glass" style={{ padding: '3rem', textAlign: 'center', borderRadius: '1rem', borderLeft: '4px solid var(--accent-color)' }}>
+        <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🔍</div>
+        <h3 style={{ fontSize: '1.3rem', fontWeight: '700', marginBottom: '0.5rem' }}>
+          Sin resultados para "{activeSearch}"
+        </h3>
+        <p style={{ color: 'var(--text-secondary)' }}>
+          No encontramos productos que coincidan. Intenta con otro nombre.
+        </p>
+        <button onClick={onClearSearch} style={{
+          marginTop: '1.5rem',
+          background: 'var(--accent-color)', color: '#000',
+          border: 'none', borderRadius: '8px',
+          padding: '0.6rem 1.4rem', fontWeight: '700', cursor: 'pointer',
+        }}>
+          Ver todos los productos
+        </button>
+      </div>
+    </section>
+  )
+
   return (
     <section id="catalogo" style={{ padding: '72px 48px', maxWidth: '1280px', margin: '0 auto' }}>
 
-      {/* Encabezado de sección */}
+      {/* Encabezado */}
       <div style={{ marginBottom: '40px' }}>
         <h2 style={{ fontSize: '1.85rem', fontWeight: '800', letterSpacing: '-0.02em', marginBottom: '8px' }}>
           Catálogo de <span style={{ color: 'var(--accent-color)' }}>Productos</span>
